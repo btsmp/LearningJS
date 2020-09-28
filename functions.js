@@ -17,11 +17,11 @@ console.log(obj.speak())
 //
 // Default value of a function
 
-function soma(a = 1, b = 1, c = 1){
+function sum(a = 1, b = 1, c = 1){
     return a + b + c
 }
 
-console.log(soma(0, 0, 0))
+console.log(sum(0, 0, 0))
 
 // Arrow Funciton
 
